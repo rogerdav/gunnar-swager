@@ -7,11 +7,13 @@ const Contact = (props) => {
   return (
     <div className="about">
    
-   <Parallax bgImage={image} blur={{ min: -2, max: 5 }}>
+   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 1200 }}>
         <div className="insideDiv">
           <h4>Contact Infomation</h4>
-          
+          <p>Tel: (206) 8675309</p>
+          <p>email: info@gunnarswager.com</p>
+          <p>mailing Address: PO BOX somewhere</p>
         
         </div>
       </div>

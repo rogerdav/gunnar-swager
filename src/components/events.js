@@ -7,7 +7,7 @@ const Events = (props) => {
   return (
     <div className="about">
    
-   <Parallax bgImage={image} blur={{ min: -2, max: 5 }}>
+   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 1200 }}>
         <div className="insideDiv">
           <h4>Upcoming Events</h4>

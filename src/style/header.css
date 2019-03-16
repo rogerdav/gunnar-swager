@@ -25,9 +25,10 @@
 .header h3 {
   font-size: 1em;
   color: white;
+  font-style: italic;
 
 }
 .headerTitle {
   width: 100%;
-  outline: 2px solid orange;
+  /* outline: 2px solid orange; */
 }
