@@ -2,7 +2,7 @@
   "name": "gunnar-swager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/rogerdav/gunnar-swager",
+  "homepage": "https://rogerdav.github.io/gunnar-swager/",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
