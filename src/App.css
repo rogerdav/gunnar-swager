@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.appBody {
+  margin-top: 10.5%;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
