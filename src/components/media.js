@@ -6,7 +6,7 @@ import image from '../media/interview.jpg';
 
 const Media = (props) => {
   return (
-    <div className="purchase">
+    <div className="media" id="media" >
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 1200 }}>

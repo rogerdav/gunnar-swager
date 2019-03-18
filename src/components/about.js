@@ -5,7 +5,7 @@ import image from '../media/about.jpg';
 
 const About = (props) => {
   return (
-    <div className="about">
+    <div id="about">
    
    <Parallax bgImage={image} blur={{ min: -2, max: 5 }} >
       <div style={{ height: 1200 }}>

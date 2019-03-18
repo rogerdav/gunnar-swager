@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../media/logo.jpeg';
+import logo1 from '../media/logo.png';
 import '../style/header.css'
 
 const Header = (props) => {
@@ -11,6 +11,29 @@ const Header = (props) => {
      <h3>'Comfort for Kids in crisis'</h3>
 
      </div>
+     <ul>
+       <li>
+       <a href="#about" >Home</a>
+       </li>
+       <li>
+         <a href="#help" >How you can help</a>
+       </li>
+       <li>
+         <a href="#events" >Events</a>
+       </li>
+       <li>
+         <a href="#media" >Media</a>
+       </li>
+       <li>
+         <a href="#sponsors" >Foundation Friends</a>
+       </li>
+       <li>
+         <a href="#about" >About Gunnar</a>
+       </li>
+       <li>
+         <a href="#contact" >Contact</a>
+       </li>
+     </ul>
    </div>
  );
 }

@@ -5,7 +5,7 @@ import image from '../media/cover.jpg';
 
 const Contact = (props) => {
   return (
-    <div className="about">
+    <div id="contact">
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 1200 }}>

@@ -3,6 +3,7 @@
 }
 .appBody {
   margin-top: 10.5%;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
