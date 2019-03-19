@@ -3,15 +3,19 @@ import logo1 from '../media/logo.png';
 import '../style/header.css'
 
 const Header = (props) => {
+  console.log('this is props in header', props.scrolling);
  return (
    <div className="header">
+     {/* <div className="headerTitle"> */}
      <img className="headerLogo" src={logo1} alt="logo"></img>
-     <div className="headerTitle">
-     <h1>Gunnar Swager Foundation</h1>
-     <h3>'Comfort for Kids in crisis'</h3>
+     {/* <h1>Gunnar Swager Foundation</h1> */}
+     <h1>'Comfort for Kids in crisis'</h1>
 
-     </div>
-     <ul>
+     {/* </div> */}
+     {/* <ul className={props.scrolling ? 'notShowing' : 'showing'} */}
+     <ul 
+          style={{display: 'none' }}
+          >
        <li>
        <a href="#about" >Home</a>
        </li>

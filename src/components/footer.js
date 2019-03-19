@@ -8,7 +8,7 @@ const Footer = (props) => {
      
      
      
-     <h1>Comfort for Kids in crisis</h1>
+     <h6>social media icons will go here</h6>
 
    
    </div>
