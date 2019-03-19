@@ -19,23 +19,23 @@ class App extends Component {
     this.state = {
       scrolling: false,
     };
-    this.handleScroll = this.handleScroll.bind(this);
+    // this.handleScroll = this.handleScroll.bind(this);
   }
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
+  // componentDidMount() {
+  //   window.addEventListener('scroll', this.handleScroll);
+  // }
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-  handleScroll(event) {
-    if (window.scrollY === 0 && this.state.scrolling === true) {
-        this.setState({scrolling: false});
-    }
-    else if (window.scrollY !== 0 && this.state.scrolling !== true) {
-        this.setState({scrolling: true});
-    }
-}
+  // componentWillUnmount() {
+  //   window.removeEventListener('scroll', this.handleScroll);
+  // }
+  // handleScroll(event) {
+  //   if (window.scrollY === 0 && this.state.scrolling === true) {
+  //       this.setState({scrolling: false});
+  //   }
+  //   else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+  //       this.setState({scrolling: true});
+  //   }
+  // }
 
   render() {
     return (
