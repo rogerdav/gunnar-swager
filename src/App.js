@@ -9,6 +9,9 @@ import Sponsors from './components/sponsors';
 import Footer from './components/footer';
 import Donate from './components/donate-button';
 import Example from './components/menu';
+import Gunnar from './components/gunnar';
+import Test from './components/test-component-sidepics';
+import Carousel from './components/carousel';
 
 import logo from './logo.svg';
 import './App.css';
@@ -54,7 +57,14 @@ class App extends Component {
         <Sponsors />
         <h1>| | |</h1>
         <Contact />
+        
         <Donate />
+        <h1>| | |</h1>
+        {/* <Gunnar /> */}
+        <Carousel />
+        <h1>| | |</h1>
+        <Test />
+        <h1>| | |</h1>
         <Footer />
         </div>
       </div>

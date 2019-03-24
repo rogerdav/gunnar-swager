@@ -8,7 +8,7 @@ const Contact = (props) => {
     <div id="contact">
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 1200 }}>
+      <div style={{ height: 800 }}>
         <div className="insideDiv">
           <h4>Contact Infomation</h4>
           <p>Tel: (206) 8675309</p>

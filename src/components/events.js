@@ -8,7 +8,7 @@ const Events = (props) => {
     <div id="events">
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 1200 }}>
+      <div style={{ height: 800 }}>
         <div className="insideDiv">
           <h4>Upcoming Events</h4>
           <iframe title="calendar"

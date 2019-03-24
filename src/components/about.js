@@ -8,7 +8,7 @@ const About = (props) => {
     <div id="about">
    
    <Parallax bgImage={image} blur={{ min: -2, max: 5 }} >
-      <div style={{ height: 1200 }}>
+      <div style={{ height: 800 }}>
         <div className="insideDiv">
           <h4>Description of Foundation</h4>
           <p>

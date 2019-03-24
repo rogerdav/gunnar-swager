@@ -58,7 +58,7 @@ class Example extends React.Component {
             onClick={() => this.closeMenu()}
             onStateChange={(state) => this.handleStateChange(state)}
             className="menu-item" 
-            href="#aboutgunnar">About Gunnar Swager</a>
+            href="#gunnar">About Gunnar Swager</a>
         <a id="contactmenu" 
             onClick={() => this.closeMenu()}
             onStateChange={(state) => this.handleStateChange(state)}
