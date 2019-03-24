@@ -9,6 +9,8 @@ const Test = (props) => {
       <div className="leftSide">
       </div>
       <div className="contents">
+      <h1>Contents will go here</h1>
+      
       </div>
       <div className="rightSide">
       </div>
