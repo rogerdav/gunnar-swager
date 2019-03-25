@@ -25,21 +25,22 @@ class DemoCarousel extends Component {
             Image9, Image10, Image11];
         let carouselContents = [];
         images.forEach(element => {
-            carouselContents.push(<div >
+            carouselContents.push(
                     <img src={`${element}`} />
-                    <p className="legend">Legend 1</p>
-                   </div>)
+                    
+                   )
         })
        
         return (
-            <div className="carousel">
+            <div id="carouselContainer">
                 <Carousel 
                 autoPlay={true} 
                 infiniteLoop={true} 
-                dynamicHeight={true} 
+                dynamicHeight={false} 
                 stopOnHover={false}
-                width={"50%"}
-                style={{marginLeft: "25%"}}
+                width={"100%"}
+                
+                
                 >
                     
                     {carouselContents}
