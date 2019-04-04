@@ -9,7 +9,7 @@ const Contact = (props) => {
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 800 }}>
-        <div className="insideDiv">
+        <div className="insideDiv contact">
           <h4>Contact Infomation</h4>
           <p>Tel: (206) 8675309</p>
           <p>email: info@gunnarswager.com</p>

@@ -10,7 +10,7 @@ const Media = (props) => {
    
    <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
       <div style={{ height: 1200 }}>
-        <div className="insideDiv">
+        <div className="insideDiv media">
           <h4>Media</h4>
           <p>Here we will have links to media interviews etc.</p>
           <p>We can have frames with the media already there</p>
