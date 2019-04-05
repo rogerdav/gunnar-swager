@@ -56,15 +56,15 @@ class App extends Component {
         <h1>| | |</h1>
         <Sponsors />
         <h1>| | |</h1>
-        <Contact />
+        <Carousel />
         
         <Donate />
         <h1>| | |</h1>
+        <Contact />
         {/* <Gunnar /> */}
-        <Carousel />
         <h1>| | |</h1>
-        <Test />
-        <h1>| | |</h1>
+        {/* <Test />
+        <h1>| | |</h1> */}
         <Footer />
         </div>
       </div>

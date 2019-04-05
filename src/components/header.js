@@ -13,7 +13,7 @@ const Header = (props) => {
 
      {/* </div> */}
      {/* <ul className={props.scrolling ? 'notShowing' : 'showing'} */}
-     <ul 
+     {/* <ul 
           style={{display: 'none' }}
           >
        <li>
@@ -37,7 +37,7 @@ const Header = (props) => {
        <li>
          <a href="#contact" >Contact</a>
        </li>
-     </ul>
+     </ul> */}
    </div>
  );
 }
