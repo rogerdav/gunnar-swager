@@ -24,6 +24,7 @@ const About = (props) => {
           </p>
           <p>Other fundraising sources for the foundation will come from donations online, merchandise sales, and fundraising events.
           </p>
+          
         
         </div>
       </div>

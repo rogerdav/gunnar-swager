@@ -14,6 +14,12 @@ import Image8 from '../media/carouselPics/pic8.jpg';
 import Image9 from '../media/carouselPics/pic9.jpg';
 import Image10 from '../media/carouselPics/pic10.jpg';
 import Image11 from '../media/carouselPics/pic11.jpg';
+import Image12 from '../media/carouselPics/pic12.jpg';
+import Image13 from '../media/carouselPics/pic13.jpg';
+import Image14 from '../media/carouselPics/pic14.jpg';
+import Image15 from '../media/carouselPics/pic15.jpg';
+import Image16 from '../media/carouselPics/pic16.jpg';
+import Image17 from '../media/carouselPics/pic17.jpg';
 import '../style/carousel.css';
 
 // const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8,
@@ -22,11 +28,11 @@ import '../style/carousel.css';
 class DemoCarousel extends Component {
     render() {
         const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8,
-            Image9, Image10, Image11];
+            Image9, Image10, Image11, Image12, Image14, Image15, Image17];
         let carouselContents = [];
         images.forEach(element => {
             carouselContents.push(
-                    <img src={`${element}`} />
+                    <img src={`${element}`} alt="" />
                     
                    )
         })
@@ -36,11 +42,9 @@ class DemoCarousel extends Component {
                 <Carousel 
                 autoPlay={true} 
                 infiniteLoop={true} 
-                dynamicHeight={false} 
-                stopOnHover={false}
+                dynamicHeight={true} 
+                stopOnHover={true}
                 width={"100%"}
-                
-                
                 >
                     
                     {carouselContents}
