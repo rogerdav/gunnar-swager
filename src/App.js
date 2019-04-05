@@ -62,10 +62,10 @@ class App extends Component {
         <h1>| | |</h1>
         <Contact />
         {/* <Gunnar /> */}
-        <h1>| | |</h1>
+        {/* <h1>| | |</h1> */}
         {/* <Test />
         <h1>| | |</h1> */}
-        <Footer />
+        {/* <Footer /> */}
         </div>
       </div>
     );
