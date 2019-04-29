@@ -3,6 +3,10 @@
   height: 100%;
   /* border: 1px solid black; */
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
 }
 .contents.contact p {
   text-align: left;
