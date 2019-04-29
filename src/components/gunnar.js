@@ -7,18 +7,18 @@ import '../style/gunnar.css'
 
 const Gunnar = (props) => {
   return (
-    <div id="gunnar">
+    <div id="gunnar" style={{ height: 800 }}>
    
-   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 1800 }}>
+  
+      
         <div className="insideDiv">
          <Carousel />
           
         
         </div>
       </div>
-    </Parallax>
-    </div>
+    
+    
   );
  }
  

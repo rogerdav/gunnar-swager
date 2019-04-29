@@ -1,8 +1,8 @@
 #donateButton {
   /* border: solid 3px black; */
-  border-radius: 15px;
+  /* border-radius: 15px;
   color: white;
-  background-color: red;
+  background-color: red; */
   width: 150px;
   height: 50px;
   position: fixed;
@@ -14,9 +14,9 @@
   z-index: 999999;
 }
 #donateButton span {
-
+/* 
     display: inline-block;
     vertical-align: middle;
-    line-height: normal;
+    line-height: normal; */
 
 }
