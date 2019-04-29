@@ -1,23 +1,24 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
 import '../style/contact.css';
-import image from '../media/cover.jpg';
+import ContactForm from '../components/contactForm';
 
 const Contact = (props) => {
   return (
-    <div id="contact">
-   
-   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 800 }}>
-        <div className="insideDiv contact">
-          <h4>Contact Infomation</h4>
-          <p>Tel: (206) 8675309</p>
-          <p>email: info@gunnarswager.com</p>
-          <p>mailing Address: PO BOX somewhere</p>
+    <div id="contact" style={{ height: 800 }}>
+      <img src={require('../media/BD_website_01a_pb.jpg')} />
+      
+        <div className="contents contact">
+          <h1>Contact Infomation</h1>
+          <h5>Gunnar Swager Foundation</h5>
+          <h5>5915 N Normandie St</h5>
+          <h5>Spokane, WA 99205</h5>
+          <a href = "mailto: info@gunnarswagerfoundation.com">Send Email</a>
+          <h5>info@gunnarswagerfoundation.com</h5>
+          <h5>509-939-2518</h5>
+          <ContactForm />
         
         </div>
-      </div>
-    </Parallax>
+        <img src={require('../media/BD_website_01a_pb.jpg')} />
     </div>
   );
  }

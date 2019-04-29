@@ -5,6 +5,9 @@
   /* border: 1px solid black; */
   width: 100%;
 }
+.contents.about p {
+  text-align: left;
+}
 #about {
   height: 100vh;
   min-height: 100vh;
