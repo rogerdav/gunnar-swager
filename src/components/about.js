@@ -1,16 +1,16 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
 import '../style/about.css';
-import image from '../media/about.jpg';
 
 const About = (props) => {
   return (
     <div id="about">
    
-   <Parallax bgImage={image} blur={{ min: -2, max: 5 }} >
-      <div style={{ height: 960 }}>
-        <div className="insideDiv about">
-          <h1>GUNNAR SWAGER FOUNDATION</h1>
+   
+    <div id="about" >
+      
+      <img src={require('../media/BD_website_01a_pb.jpg')} />
+      <div className="contents about">
+      <h1>GUNNAR SWAGER FOUNDATION</h1>
           <h4>Comfort for Kids in Crisis</h4>
           <p>Gunnar Swager foundation became incorporated on September 27th, 2018.</p>
           <h4>Foundation was formed</h4>
@@ -24,11 +24,12 @@ const About = (props) => {
           </p>
           <p>Other fundraising sources for the foundation will come from donations online, merchandise sales, and fundraising events.
           </p>
-          
-        
-        </div>
+      
+      
       </div>
-    </Parallax>
+      
+      <img src={require('../media/BD_website_02a_pb.jpg')} />
+    </div>
     </div>
   );
  }

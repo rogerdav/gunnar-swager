@@ -16,7 +16,7 @@
 .contents{
   height: 100%;
   /* border: 1px solid black; */
-  width: 100%;
+  width: 80%;
 }
 #testsheet {
   display: flex;
@@ -24,4 +24,7 @@
   justify-content: center;
   /* outline: 1px solid orange; */
   width: 100%;
+}
+#testsheet img {
+  width: 15%;
 }

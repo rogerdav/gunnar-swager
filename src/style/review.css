@@ -1,19 +1,17 @@
 
-.contents.about{
-  padding: 0 5%;
+.contents.review{
   height: 100%;
   /* border: 1px solid black; */
   width: 100%;
+  
+  
+
 }
-#about {
-  height: 100vh;
-  min-height: 100vh;
+#review {
   display: flex;
   flex-direction: row;
   justify-content: center;
   /* outline: 1px solid orange; */
   width: 100%;
-}
-#about img {
-  width: 15%;
+  height: 760px;
 }
