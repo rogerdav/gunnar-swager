@@ -7,7 +7,10 @@ const Header = (props) => {
  return (
    <div className="header">
      {/* <div className="headerTitle"> */}
+     <a href="/">
      <img className="headerLogo" src={logo1} alt="logo"></img>
+
+     </a>
      {/* <h1>Gunnar Swager Foundation</h1> */}
      <h1>'Comfort for Kids in crisis'</h1>
 
