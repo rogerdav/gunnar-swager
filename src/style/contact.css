@@ -7,9 +7,11 @@
   justify-content: center;
   flex-direction: column;
   justify-items: center;
+  align-items: center;
 }
 .contents.contact p {
   text-align: left;
+
 }
 #contact {
   height: 100vh;

@@ -46,36 +46,49 @@ class ContactForm extends React.Component {
   }
 
   render() {
+    let submittable = false;
+    if(this.state.name && this.state.contact_input) {
+      submittable = true
+    }
     return (
       <div className="contactForm">
-        {/* <label for="name">Name</label> */}
+      
+
+      
+        <label for="name">Name</label>
         <input 
           type="text" 
           name="name" 
           id="name" 
           placeholder="name" 
           onChange={this.handleInputChange}/>
-           
-        {/* <label for="email">Email</label> */}
-        <input 
-          type="text" 
-          name="contact_input" 
-          id="contact_input" 
-          placeholder="email or phone " 
-          onChange={this.handleInputChange}/>
-           
-        {/* <label for="message">Message</label> */}
-        <input 
-          style={{ height: 200}}
-          type="textarea" 
-          name="message" 
-          id="message" 
-          placeholder="Message" 
-          onChange={this.handleInputChange}/>
+
+       
+     
+          <label for="email">Contact</label>
+          <input 
+            type="text" 
+            name="contact_input" 
+            id="contact_input" 
+            placeholder="email or phone " 
+            onChange={this.handleInputChange}/>
+         
+          <label for="message">Message</label>
+          <input 
+            style={{ height: 200}}
+            type="textarea" 
+            name="message" 
+            id="message" 
+            // placeholder="Message" 
+            onChange={this.handleInputChange}/>
+
         <button
+        className="submitButton"
+        style={{ backgroundColor: submittable ? 'green' : 'lightGrey' }}
         onClick={() => this.submitCallRequest()}>
           Submit
         </button>
+        
 
       </div>
     );

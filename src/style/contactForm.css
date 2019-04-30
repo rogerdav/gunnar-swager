@@ -4,5 +4,14 @@
   width: 50%;
   justify-content: center;
   justify-items: center;
-  padding-left: 25%;
+  
+}
+.submitButton {
+  width: 15%;
+  /* background-color: blue; */
+  color: white;
+  float: right;
+  margin-left: 85%;
+  cursor: pointer;
+  
 }
