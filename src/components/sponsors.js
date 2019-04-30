@@ -3,7 +3,7 @@ import { Parallax, Background } from 'react-parallax';
 import '../style/sponsors.css';
 import image from '../media/book.jpg';
 
-const sponsors=['Kris Wilder', 'Roger Davenport', 'Marty Swager', 'person d']
+const sponsors=['Kris Wilder', 'Roger Davenport', 'Marty Swager', 'Person X', 'Person X', 'Person X', 'Person X', 'Person X', 'Person X']
 let allSponsors = sponsors.map((element, index) => <div key={index}className="brick">&#8226;  {element}  &#8226;</div>)
 
 const Sponsors = (props) => {
