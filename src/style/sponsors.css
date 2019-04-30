@@ -21,9 +21,9 @@
 
 .sponsors_wall {
   display: flex;
-  align-content: flex-start;
+  flex-direction: row-wrap;
   justify-content: flex-start;
-  /* margin-top: 30%; */
+  flex-wrap: wrap;
 
 }
 .contents.sponsors{
@@ -36,9 +36,10 @@
 
 .brick {
   /* border: 1px solid black; */
+  min-width: 10%;
   padding: 1% 2%;
   /* border-radius: 15%; */
-  margin-left: 2%;
+  margin: 2% 2%;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 #sponsors {

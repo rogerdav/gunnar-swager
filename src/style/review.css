@@ -3,9 +3,24 @@
   height: 100%;
   /* border: 1px solid black; */
   width: 100%;
-  
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-content: center; */
+  align-items: center;
+ 
 
+}
+.testimonials {
+  width: 75%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid black; */
+  padding: 2% 2%;
+}
+.testimonials p {
+  text-align: end;
+  font-size: 1.2em;
+  text-transform: capitalize;
 }
 #review {
   display: flex;
@@ -14,4 +29,7 @@
   /* outline: 1px solid orange; */
   width: 100%;
   height: 760px;
+}
+#review img {
+  width: 15%;
 }

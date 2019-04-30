@@ -70,7 +70,7 @@ class Example extends React.Component {
             onClick={() => this.closeMenu()}
             // onStateChange={(state) => this.handleStateChange(state)}
             className="menu-item" 
-            to='/review'>Year in review</Link>
+            to='/review'>Testimonials</Link>
         <a href="http://www.facebook.com" className="fa fa-facebook"></a>
       </Menu>
     );
