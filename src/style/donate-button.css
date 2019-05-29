@@ -20,3 +20,14 @@
     line-height: normal; */
 
 }
+#donateButton2 {
+  width: 300px;
+  height: 75px;
+  /* position: fixed;
+  bottom: 30px;
+  right: 30px; */
+  text-align: center;
+  line-height: 5%;
+  line-height: 50px;
+  z-index: 999999;
+}

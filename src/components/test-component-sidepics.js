@@ -6,12 +6,12 @@ const Test = (props) => {
     <div id="testsheet" style={{ height: 800 }}>
       {/* <div className="leftSide">
       </div> */}
-      <img src={require('../media/BD_website_01a_pb.jpg')} />
+      <img src={require('../media/BD_website_01a_pb.jpg')} className="firstpic"/>
       <div className="contents">
       <h1>Contents will go here</h1>
       
       </div>
-      <img src={require('../media/BD_website_01a_pb.jpg')} />
+      <img src={require('../media/BD_website_01a_pb.jpg')} className="secondpic"/>
       {/* <div className="rightSide">
       </div> */}
     </div>

@@ -71,7 +71,7 @@ class Example extends React.Component {
             // onStateChange={(state) => this.handleStateChange(state)}
             className="menu-item" 
             to='/review'>Testimonials</Link>
-        <a href="http://www.facebook.com" className="fa fa-facebook"></a>
+        <a href="http://www.facebook.com" className="fa fa-facebook" style={{"marginTop": "25%"}}></a>
       </Menu>
     );
   }

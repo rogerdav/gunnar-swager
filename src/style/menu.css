@@ -73,5 +73,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .fa.fa-facebook {
   font-size: 36px;
-  margin-top: 25%;
+  /* margin-top: 25%; */
 }

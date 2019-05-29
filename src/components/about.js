@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/about.css';
 
+
 const About = (props) => {
   return (
     
@@ -11,21 +12,24 @@ const About = (props) => {
       <img src={require('../media/BD_website_01a_pb.jpg')} />
       <div className="contents about">
       <h1>GUNNAR SWAGER FOUNDATION</h1>
-          <h4>Comfort for Kids in Crisis</h4>
-          <p>Gunnar Swager foundation became incorporated on September 27th, 2018.</p>
-          <h4>Foundation was formed</h4>
-          <p>December 31, 2016, we lost out son Gunnar Swager due to an auto accident. For his celebration of life gathering, we requested family and friends to bring stuffed animals instead of flowers. The week before his passing, he was home for Christmas from Seattle and expressed to us that he wanted to create a stuffed animal that was different for children, so they would have something to open on Christmas. The stuffed animals from his memorial service, numbering in the thousands, were donated to various Shriner Hospitals throughout the USA and Law enforcement/emergency response agencies in our community. Currently, we are in the process of forming a working relationship with local law enforcement and emergency responders. The goal in this formation is to provide comfort care toys to children in crisis situations, to help them feel more secure and stable in the midst of a stressful event.
+          <h4>Our Mission:</h4>
+          <p>Provide comfort care toys to children in crisis situations, to help them feel more secure and stable in the midst of a stressful event.</p>
+          <img src={require('../media/page1pic1.jpg')}/>
+          <h4>Our Story:</h4>
+          <p>December 31, 2016, we lost our son Gunnar Swager due to an auto accident. The week before his passing, he was home for Christmas from Seattle and expressed to us that he wanted to create a stuffed animal that was different for children, so they would have something to open on Christmas. For his celebration of life gathering, we requested family and friends to bring stuffed animals instead of flowers. The stuffed animals from his memorial service, numbering in the thousands, were donated to various Shriner Hospitals throughout the USA and Law enforcement/emergency response agencies in our community
           </p>
-          <p>Gunnar passed before we could brainstorm properly on this project. Later on, in June 2018 I dusted off our book shelf and found a book he had written as a child, "The Blue Devil". In that moment, as we read it again, years after its creation, we knew that we had to make this book a part of our project. At age 11, it was Gunnar's dream to have this book published. Our determination combined with your support will allow us to see this project through to completion.
+          <img style={{ "width": "35%"}} src={require('../media/page1pic2.jpg')}/>
+          <p>
+          Gunnar passed before we could brainstorm properly on his project. Later, while we were going over his things, we found a book he had written at 11 years old, "The Blue Devil". It was Gunnar's dream to have this book published. At that moment, as we read it again, the dreams of a child and the vision of a young man came together, and the foundation was formed to help children.
           </p>
-          <p>We have set our realistic goal to have "The Blue Devil-Adventures in Topsy Turvy Town" available for sale on Amazon in October 2019.
+          <h4>Where does my money go?</h4>
+          <p>
+          Your donation and/or purchase of the book "The Blue Devil-Adventures is Topsy Turvy Town" will go to law enforcement/emergency response agencies to purchase Comfort care toys to children in a crisis situation, to help them feel more secure and stable in the midst of a stressful event.
           </p>
-          <p>The proceeds from the sale of this book will help support our mission.
-          </p>
-          <p>Other fundraising sources for the foundation will come from donations online, merchandise sales, and fundraising events.
-          </p>
-          <p>We would like to thank you for all your support in assisting with Gunnar's final dream and supporting the foundation.</p>
-          <p>Marty and Tamera Swager</p>
+
+          
+          
+          
       
       
       </div>

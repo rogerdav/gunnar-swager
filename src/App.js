@@ -45,7 +45,7 @@ class App extends Component {
           <Route path='/review' component={Review} />
           <Route path='/test' component={Test} />
           
-          <Donate />
+          <Donate pid="donateButton"/>
           
           </div>
         </div>
