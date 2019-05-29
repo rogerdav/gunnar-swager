@@ -4,9 +4,13 @@
   height: 100%;
   /* border: 1px solid black; */
   width: 100%;
+  overflow: scroll;
 }
 .contents.about p {
   text-align: left;
+}
+#pic2 {
+  width: 35%;
 }
 #about {
   height: 100vh;

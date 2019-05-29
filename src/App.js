@@ -40,12 +40,12 @@ class App extends Component {
           <Route path='/events' component={Events} />
           <Route path='/media' component={Media} />
           <Route path='/sponsors' component={Sponsors} />
-          <Route path='/gunnar' component={Carousel} />
+          <Route path='/gunnar' component={Gunnar} />
           <Route path='/contact' component={Contact} />
           <Route path='/review' component={Review} />
           <Route path='/test' component={Test} />
           
-          <Donate />
+          <Donate pid="donateButton"/>
           
           </div>
         </div>

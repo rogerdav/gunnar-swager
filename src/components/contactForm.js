@@ -28,7 +28,7 @@ class ContactForm extends React.Component {
     this.resetState();
   }
   resetState() {
-     
+    
     this.setState({
       date: '',
       name: '',
@@ -57,6 +57,7 @@ class ContactForm extends React.Component {
       
         <label for="name">Name</label>
         <input 
+          vlaue={this.state.name}
           type="text" 
           name="name" 
           id="name" 
