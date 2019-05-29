@@ -20,8 +20,11 @@
 
 
 .sponsors_wall {
+  width: 100%;
+  padding-left: 10%;
   display: flex;
-  flex-direction: row-wrap;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 
@@ -55,11 +58,14 @@
 .partnerDescription {
   display: flex;
   flex-direction: row;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 3%;
 }
 .partnerDescription img {
   width: 10%;
   height: 50%;
 }
 .info {
-  outline: solid orange 1px;
+  width: 100%;
+  /* outline: solid orange 1px; */
 }
