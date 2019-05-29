@@ -31,6 +31,7 @@
   height: 100%;
   /* border: 1px solid black; */
   width: 100%;
+  overflow: scroll;
  
 }
 
@@ -50,4 +51,15 @@
 }
 #sponsors img {
   width: 15%;
+}
+.partnerDescription {
+  display: flex;
+  flex-direction: row;
+}
+.partnerDescription img {
+  width: 10%;
+  height: 50%;
+}
+.info {
+  outline: solid orange 1px;
 }
