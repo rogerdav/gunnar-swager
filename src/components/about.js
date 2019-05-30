@@ -16,7 +16,7 @@ const About = (props) => {
           <p>Provide comfort care toys to children in crisis situations, to help them feel more secure and stable in the midst of a stressful event.</p>
           <img src={require('../media/page1pic1.jpg')}/>
           <h4>Our Story:</h4>
-          <p>December 31, 2016, we lost our son Gunnar Swager due to an auto accident. The week before his passing, he was home for Christmas from Seattle and expressed to us that he wanted to create a stuffed animal that was different for children, so they would have something to open on Christmas. For his celebration of life gathering, we requested family and friends to bring stuffed animals instead of flowers. The stuffed animals from his memorial service, numbering in the thousands, were donated to various Shriner Hospitals throughout the USA and Law enforcement/emergency response agencies in our community
+          <p>December 31, 2016, we lost our son Gunnar Swager due to an auto accident. The week before his passing, he was home for Christmas from Seattle and expressed to us that he wanted to create a stuffed animal that was different for children, so they would have something to open on Christmas. For his celebration of life gathering, we requested family and friends to bring stuffed animals instead of flowers. The stuffed animals from his memorial service, numbering in the thousands, were donated to various Shriner Hospitals throughout the USA and Law enforcement/emergency response agencies in our community.
           </p>
           <img style={{ "width": "35%"}} src={require('../media/page1pic2.jpg')}/>
           <p>

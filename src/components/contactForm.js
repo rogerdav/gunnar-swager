@@ -54,7 +54,8 @@ class ContactForm extends React.Component {
       <div className="contactForm">
       
 
-      
+        {/* // <form align="center"> */}
+
         <label for="name">Name</label>
         <input 
           vlaue={this.state.name}
@@ -89,6 +90,7 @@ class ContactForm extends React.Component {
         onClick={() => this.submitCallRequest()}>
           Submit
         </button>
+        {/* // </form> */}
         
 
       </div>

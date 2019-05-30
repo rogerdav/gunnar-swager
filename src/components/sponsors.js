@@ -52,7 +52,7 @@ const Sponsors = (props) => {
 
           </div>
           <div className="partnerDescription"> 
-          <img src={require('../media/partner/zach.png')}/>
+          <img src={require('../media/zach1.png')}/>
           <div className="info">
             <h4>Zach Robyn</h4><p> Gunnar Swager Foundation Logo Designer</p>
             <p><a></a></p>
