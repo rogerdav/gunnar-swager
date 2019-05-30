@@ -11,7 +11,7 @@ module.exports = function(formInfo) {
 // This address must be verified with Amazon SES.
   
   const sender = 'Gunnar Swager Foundation <roger@davenport-home.com>';
-  const recipient = 'roger@roger-davenport.com';
+  const recipient = 'info@gunnarswagerfoundation.com';
   // let dayForSubject = formInfo.date.getDay();
   const subject = `Contact Request from ${formInfo.name}`;
 
