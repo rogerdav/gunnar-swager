@@ -49,7 +49,8 @@
 #sponsors {
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
+  width: 100%; 
   
 }
 #sponsors img {
@@ -69,3 +70,33 @@
   width: 100%;
   /* outline: solid orange 1px; */
 }
+@media screen and (max-width: 992px) {
+  .firstpic {
+    display: none;
+  }
+  .secondpic {
+    opacity: 0.2;
+  }
+  #sponsors {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  .contents.sponsors{
+  
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow: scroll;
+   
+  }
+  .partnerDescription {
+    display: flex;
+    flex-direction: row;
+    overflow-wrap: initial;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+  }
+  
+} 

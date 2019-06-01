@@ -32,8 +32,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Example />
           <Header scrolling={this.state.scrolling} pageWrapId={ "menuBody" }/>
+          <Example />
           <div className="appBody" id="menuBody">
           <Route exact path='/' component={About} />
           <Route path='/help' component={Purchase} />

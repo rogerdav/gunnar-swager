@@ -12,7 +12,7 @@ const Header = (props) => {
 
      </a>
      {/* <h1>Gunnar Swager Foundation</h1> */}
-     <h1>'Comfort for Kids in crisis'</h1>
+     <h1 className="title">'Comfort for Kids in crisis'</h1>
 
      {/* </div> */}
      {/* <ul className={props.scrolling ? 'notShowing' : 'showing'} */}

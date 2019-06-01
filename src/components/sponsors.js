@@ -12,7 +12,7 @@ const Sponsors = (props) => {
     <div id="sponsors" style={{ height: 790 }}>
    
     
-      <img src={require('../media/BD_website_03a_pb.jpg')} />
+      <img  className="firstpic" src={require('../media/BD_website_03a_pb.jpg')} />
     
       
         <div className="contents sponsors">
@@ -36,7 +36,7 @@ const Sponsors = (props) => {
 
           </div>
           <div className="partnerDescription"> 
-          <img src={require('../media/partner/jeff.jpg')}/>
+          <img className="firstpic" src={require('../media/partner/jeff.jpg')}/>
           <div className="info">
             <h4>Jeff Wieck</h4><p> Wordsmith</p>
             <p>Wordsmith and long-time friend of the Swagers. Jeff is a graduate of Eastern Washington University with a BA in English, who has written most of his entire life for the amusement of friends and family. It was his distinct honor to ply his skills in proofreading Gunnar's work</p>
@@ -65,7 +65,7 @@ const Sponsors = (props) => {
           </div>
        
         </div>
-      <img src={require('../media/book\ mark\ 4.jpg')} />
+      <img className="secondpic" src={require('../media/book\ mark\ 4.jpg')} />
     
     </div>
   );
