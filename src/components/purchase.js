@@ -7,7 +7,7 @@ const Purchase = (props) => {
   <div id="help" style={{ height: 800 }}>
       {/* <div className="leftSide_purchase">
       </div> */}
-      <img src={require('../media/BD_website_03a_pb.jpg')} />
+      <img src={require('../media/BD_website_03a_pb.jpg')} className="firstpic" />
       <div className="contents_help">
       <h1>How To Help</h1>
        <h4>With your help we can give comfort care toys for children in crisis</h4>
@@ -31,7 +31,7 @@ const Purchase = (props) => {
       </div>
       {/* <div className="rightSide_purchase">
       </div> */}
-      <img src={require('../media/book\ mark\ 4.jpg')} />
+      <img src={require('../media/book\ mark\ 4.jpg')} className="secondpic"/>
     </div>
   );
  }

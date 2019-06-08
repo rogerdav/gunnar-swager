@@ -9,7 +9,7 @@ const About = (props) => {
    
     <div id="about" >
       
-      <img src={require('../media/BD_website_01a_pb.jpg')} />
+      <img src={require('../media/BD_website_01a_pb.jpg')} className="firstpic" />
       <div className="contents about">
       <h1>GUNNAR SWAGER FOUNDATION</h1>
           <h4>Our Mission:</h4>
@@ -34,7 +34,7 @@ const About = (props) => {
       
       </div>
       
-      <img src={require('../media/BD_website_02a_pb.jpg')} />
+      <img src={require('../media/BD_website_02a_pb.jpg')} className="secondpic"/>
     </div>
     
   );

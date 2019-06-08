@@ -2,7 +2,7 @@
   text-align: center;
 }
 .appBody {
-  margin-top: 6.8%;
+  /* margin-top: 6.8%; */
   scroll-behavior: smooth;
 }
 
@@ -36,3 +36,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .firstpic {
+    display: none;
+  }
+  .secondpic {
+    display: none;
+  }
+  
+} 

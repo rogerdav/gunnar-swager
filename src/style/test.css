@@ -32,12 +32,15 @@
   .firstpic {
     display: none;
   }
-  #testsheet {
+  .secondpic {
+    display: none;
+  }
+  /* #testsheet {
     display: flex;
     flex-direction: column;
    
   }
   #testsheet img {
     width: 100%;
-  }
+  } */
 } 

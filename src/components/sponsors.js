@@ -12,7 +12,7 @@ const Sponsors = (props) => {
     <div id="sponsors" style={{ height: 790 }}>
    
     
-      <img src={require('../media/BD_website_03a_pb.jpg')} />
+      <img src={require('../media/BD_website_03a_pb.jpg')} className="firstpic"/>
     
       
         <div className="contents sponsors">
@@ -65,7 +65,7 @@ const Sponsors = (props) => {
           </div>
        
         </div>
-      <img src={require('../media/book\ mark\ 4.jpg')} />
+      <img src={require('../media/book\ mark\ 4.jpg')} className="secondpic" />
     
     </div>
   );
