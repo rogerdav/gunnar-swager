@@ -8,6 +8,7 @@
   justify-content: flex-start;
   /* align-content: center; */
   align-items: center;
+  overflow: scroll;
  
 
 }
@@ -28,7 +29,7 @@
   justify-content: center;
   /* outline: 1px solid orange; */
   width: 100%;
-  height: 760px;
+  /* height: 760px; */
 }
 #review img {
   width: 15%;
