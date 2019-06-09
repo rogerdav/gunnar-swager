@@ -1,6 +1,5 @@
 import React, { Component} from 'react';
 import '../style/nav.css'
-import logo1 from '../media/logo.png';
 import {
   Collapse,
   Navbar,
@@ -35,7 +34,7 @@ class NavHeader extends Component {
           <NavbarBrand href="/">
           <div id="logo">
           {/* <h4>GS</h4> */}
-          <img src={require('../media/logo.png')} ></img>
+          <img src={require('../media/logo.png')}alt="" ></img>
           </div>
           {/* <div className="mobilePhoneHeading"> */}
           {/* <h1></h1> */}

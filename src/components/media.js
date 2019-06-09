@@ -6,7 +6,7 @@ import '../style/media.css';
 const Media = (props) => {
   return (
     <div id="media" style={{ height: 800 }}>
-      <img src={require('../media/BD_website_01a_pb.jpg')} className="firstpic" />
+      <img src={require('../media/BD_website_01a_pb.jpg')} alt=""className="firstpic" />
       <div className="contents media">
       <h1>Media</h1>
       <div className="mediaPlayer">
@@ -16,7 +16,7 @@ const Media = (props) => {
       
       
       </div>
-      <img src={require('../media/BD_website_02a_pb.jpg')} className="secondpic"/>
+      <img src={require('../media/BD_website_02a_pb.jpg')}alt="" className="secondpic"/>
   </div>
   );
  }

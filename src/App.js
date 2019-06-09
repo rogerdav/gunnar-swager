@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './components/header';
 import About from './components/about';
 import Events from './components/events';
 import Media from './components/media';
@@ -7,20 +6,15 @@ import Contact from './components/contact';
 import Purchase from './components/purchase';
 import Sponsors from './components/sponsors';
 import Footer from './components/footer';
-import Donate from './components/donate-button';
-import Example from './components/menu';
 import Review from './components/review';
 import Gunnar from './components/gunnar';
 import Test from './components/test-component-sidepics';
-import Carousel from './components/carousel';
 import NavHeader from './components/nav';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import {
   Route,
   HashRouter
 } from "react-router-dom";
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -36,8 +30,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          {/* <Example />
-          <Header scrolling={this.state.scrolling} pageWrapId={ "menuBody" }/> */}
           <NavHeader />
           <HashRouter>
             <div className="appBody" id="menuBody">
@@ -53,7 +45,6 @@ class App extends Component {
             </div>
           </HashRouter>
           <Footer />
-          {/* <Donate pid="donateButton"/> */}
           
         </div>
 
