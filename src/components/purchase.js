@@ -17,7 +17,7 @@ const Purchase = (props) => {
        <Donate pid="donateButton2" />
        <h4>Purchase "The Blue Devil~Adventures in Topsy Turvy Town" <br />
             Available for sale on Amazon.com October 2019</h4>
-      <img src={require('../media/bookcoversmall.jpg')} />
+      <img src={require('../media/bookcoversmall.jpg')} style={{ "marginTop": "5%"}} />
       <div className="socialIcons">
         <a href="https://www.facebook.com/Gunnar-Swager-Foundation-311191866465685/" className="fa fa-facebook"></a>
         <a href="https://twitter.com/GunnarSwager?ref_src=twsrc%5Etfw" className="fa fa-twitter" ></a>

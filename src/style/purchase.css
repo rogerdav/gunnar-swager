@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  overflow: scroll;
 }
 #help {
   display: flex;
@@ -26,6 +27,7 @@
 
 }
 .socialIcons {
+  
   width: 75%;
   display: flex;
   flex-direction: row;
@@ -35,4 +37,6 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
- 
+.socialIcons a {
+  color: blue;
+}

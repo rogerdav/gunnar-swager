@@ -1,6 +1,8 @@
 import React from 'react';
 import sendEmail from './sendemail';
 import '../style/contactForm.css';
+import { Button, FormGroup, Label, Input, } from 'reactstrap';
+
 
 
 class ContactForm extends React.Component {
@@ -52,49 +54,24 @@ class ContactForm extends React.Component {
     }
     return (
       <div className="contactForm">
-      
-
-        {/* // <form align="center"> */}
-
-        <label for="name">Name</label>
-        <input 
-          vlaue={this.state.name}
-          type="text" 
-          name="name" 
-          id="name" 
-          placeholder="name" 
-          onChange={this.handleInputChange}/>
-
-       
-     
-          <label for="email">Contact</label>
-          <input 
-            type="text" 
-            name="contact_input" 
-            id="contact_input" 
-            placeholder="email or phone " 
-            onChange={this.handleInputChange}/>
-         
-          <label for="message">Message</label>
-          <input 
-            style={{ height: 200}}
-            type="textarea" 
-            name="message" 
-            id="message" 
-            // placeholder="Message" 
-            onChange={this.handleInputChange}/>
-
-        <button
-        className="submitButton"
-        style={{ backgroundColor: submittable ? 'green' : 'lightGrey' }}
-        onClick={() => this.submitCallRequest()}>
-          Submit
-        </button>
-        {/* // </form> */}
-        
-
+        <FormGroup row>
+          <Label for="Name">Name</Label>
+          <Input value={this.state.name}type="text" name="name" id="Name" placeholder="" onChange={(e) => this.handleInputChange(e)} />
+        </FormGroup>
+        <FormGroup row>
+          <Label for="Email">Email or Phone Number</Label>
+          <Input value={this.state.contact_input}type="email" name="contact_input" id="Email" placeholder="" onChange={(e) => this.handleInputChange(e)} />
+        </FormGroup>
+        <FormGroup row sm={2}>
+          <Label for="Message">Message</Label>
+          <Input value={this.state.message} type="textarea" name="message" id="Message" placeholder="" onChange={(e) => this.handleInputChange(e)} />
+        </FormGroup>
+        <Button className="submitButton" 
+                onClick={() => this.submitCallRequest()}
+                style={{ backgroundColor: submittable ? 'green' : 'light grey' }}
+        >Submit</Button>
       </div>
-    );
+    )
   }
 }
 

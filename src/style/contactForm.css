@@ -1,10 +1,10 @@
 .contactForm {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   /* align-items: flex-start; */
-  justify-content: start;
-  justify-items: center;
+  justify-content: left;
+  justify-items: left;
   
 }
 .submitButton {

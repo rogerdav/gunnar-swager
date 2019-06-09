@@ -68,4 +68,8 @@
 .info {
   width: 100%;
   /* outline: solid orange 1px; */
+  overflow-x: scroll;
+}
+.info a {
+  color:  rgb(21, 32, 71);
 }
