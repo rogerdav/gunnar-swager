@@ -38,7 +38,9 @@ a {
   height: 100%; */
   width: 300px;
 }
-
+.collapse.navbar-collapse {
+  margin-left: 5%;
+}
 .navbar-light .navbar-toggler-icon {
  background-image: url("https://png.icons8.com/material/40/ffffff/menu.png");
 
