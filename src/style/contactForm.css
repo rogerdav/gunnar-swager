@@ -1,18 +1,18 @@
 .contactForm {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   /* align-items: flex-start; */
-  justify-content: start;
-  justify-items: center;
+  justify-content: left;
+  justify-items: left;
   
 }
 .submitButton {
-  width: 15%;
+  width: 25%;
   /* background-color: blue; */
   color: white;
   float: right;
-  margin-left: 85%;
+  margin-left: 70%;
   cursor: pointer;
   
 }

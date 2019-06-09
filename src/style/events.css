@@ -22,6 +22,7 @@
   height: 35%;
   width: 100%;
   background-size: contain;
+  max-width: 50vw;
 
 }
 #events img {

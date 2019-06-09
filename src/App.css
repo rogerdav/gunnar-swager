@@ -2,7 +2,7 @@
   text-align: center;
 }
 .appBody {
-  margin-top: 6.8%;
+  /* margin-top: 6.8%; */
   scroll-behavior: smooth;
 }
 
@@ -26,6 +26,9 @@
 .App-link {
   color: #61dafb;
 }
+.contents h1 {
+  margin-top: 5%;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +39,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .firstpic {
+    display: none;
+  }
+  .secondpic {
+    display: none;
+  }
+  
+} 

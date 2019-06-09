@@ -7,17 +7,19 @@ const Purchase = (props) => {
   <div id="help" style={{ height: 800 }}>
       {/* <div className="leftSide_purchase">
       </div> */}
-      <img src={require('../media/BD_website_03a_pb.jpg')} />
-      <div className="contents_help">
+      <img src={require('../media/BD_website_03a_pb.jpg')} className="firstpic" />
+      <div className="contents help">
       <h1>How To Help</h1>
-       <h4>With your help we can give comfort care toys for children in crisis</h4>
-       <h4>Make a donation.
+       <h4></h4>
+       <h4>With your help we can give comfort care toys for children in crisis.</h4>
+       <h4>Make a donation.</h4>
+       <h4>
         Your donation directly supports children in a crisis situation.
        </h4>
        <Donate pid="donateButton2" />
        <h4>Purchase "The Blue Devil~Adventures in Topsy Turvy Town" <br />
             Available for sale on Amazon.com October 2019</h4>
-      <img src={require('../media/bookcoversmall.jpg')} />
+      <img src={require('../media/bookcoversmall.jpg')} style={{ "marginTop": "5%"}} />
       <div className="socialIcons">
         <a href="https://www.facebook.com/Gunnar-Swager-Foundation-311191866465685/" className="fa fa-facebook"></a>
         <a href="https://twitter.com/GunnarSwager?ref_src=twsrc%5Etfw" className="fa fa-twitter" ></a>
@@ -31,7 +33,7 @@ const Purchase = (props) => {
       </div>
       {/* <div className="rightSide_purchase">
       </div> */}
-      <img src={require('../media/book\ mark\ 4.jpg')} />
+      <img src={require('../media/book\ mark\ 4.jpg')} className="secondpic"/>
     </div>
   );
  }

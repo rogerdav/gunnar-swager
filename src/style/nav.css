@@ -1,0 +1,85 @@
+#phonenumber {
+  width: 25%;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px 15px;
+  margin-left: 5%;
+  color: lightgrey;
+}
+
+a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav-item a {
+  /* margin-right: 20px; */
+  
+}
+.nav-item a:hover {
+ color: white;
+}
+
+#logo h4 {
+  color: white;
+  font-size: 4em;
+}
+#logo h5 {
+  color: lightgray;
+  font-size: 0.9em;
+ }
+#logo img {
+  width: 100%;
+}
+#logo {
+  /* padding-left: 0%;
+  background-image: url('../media/logo.png');
+  width: 100%;
+  height: 100%; */
+  width: 300px;
+}
+.collapse.navbar-collapse {
+  margin-left: 5%;
+}
+.navbar-light .navbar-toggler-icon {
+ background-image: url("https://png.icons8.com/material/40/ffffff/menu.png");
+
+}
+button:focus {
+  outline: none;
+}
+.lineItem.nav-item {
+  margin-right: 2%;
+}
+
+
+@media screen and (min-width: 1025px) {
+  #fixednavbar {
+    /* margin-bottom: 10px; */
+    background-color:  rgb(21, 32, 71);
+    color: white;
+    text-align: center;
+    /* border-bottom: #82ad40 solid 10px; */
+  }
+}
+#phone {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  #fixednavbar {
+    /* margin-bottom: 10px; */
+    background-color: rgb(21, 32, 71);
+    color: white;
+    text-align: center;
+    /* border-bottom: #82ad40 solid 10px; */
+  }
+  #logo h4 {
+    color: white;
+    font-size: 3.5em;
+  }
+  #logo h5 {
+    font-size: 0.8em;
+  }
+
+ }

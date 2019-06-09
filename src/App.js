@@ -13,7 +13,12 @@ import Review from './components/review';
 import Gunnar from './components/gunnar';
 import Test from './components/test-component-sidepics';
 import Carousel from './components/carousel';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import NavHeader from './components/nav';
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import {
+  Route,
+  HashRouter
+} from "react-router-dom";
 
 import logo from './logo.svg';
 import './App.css';
@@ -30,27 +35,28 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Example />
-          <Header scrolling={this.state.scrolling} pageWrapId={ "menuBody" }/>
-          <div className="appBody" id="menuBody">
-          <Route exact path='/' component={About} />
-          <Route path='/help' component={Purchase} />
-          <Route path='/events' component={Events} />
-          <Route path='/media' component={Media} />
-          <Route path='/sponsors' component={Sponsors} />
-          <Route path='/gunnar' component={Gunnar} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/review' component={Review} />
-          <Route path='/test' component={Test} />
+      <div className="App">
+          {/* <Example />
+          <Header scrolling={this.state.scrolling} pageWrapId={ "menuBody" }/> */}
+          <NavHeader />
+          <HashRouter>
+            <div className="appBody" id="menuBody">
+                <Route exact path='/' component={About} />
+                <Route path='/help' component={Purchase} />
+                <Route path='/events' component={Events} />
+                <Route path='/media' component={Media} />
+                <Route path='/sponsors' component={Sponsors} />
+                <Route path='/gunnar' component={Gunnar} />
+                <Route path='/contact' component={Contact} />
+                <Route path='/review' component={Review} />
+                <Route path='/test' component={Test} />
+            </div>
+          </HashRouter>
+          <Footer />
+          {/* <Donate pid="donateButton"/> */}
           
-          <Donate pid="donateButton"/>
-          
-          </div>
         </div>
 
-      </Router>
     );
   }
 }
