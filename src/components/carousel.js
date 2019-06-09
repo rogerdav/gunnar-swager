@@ -26,7 +26,7 @@ import '../style/carousel.css';
 // const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8,
 //                 Image9, Image10, Image11];
  
-class DemoCarousel extends Component {
+class GunnarCarousel extends Component {
     render() {
         const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8,
             Image9, Image10, Image11, Image12, Image13, Image14, Image15, Image17];
@@ -58,4 +58,4 @@ class DemoCarousel extends Component {
     }
 };
  
-export default DemoCarousel;
+export default GunnarCarousel;

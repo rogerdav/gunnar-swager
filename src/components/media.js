@@ -7,9 +7,12 @@ const Media = (props) => {
   return (
     <div id="media" style={{ height: 800 }}>
       <img src={require('../media/BD_website_01a_pb.jpg')} className="firstpic" />
-      <div className="contents_media">
+      <div className="contents media">
       <h1>Media</h1>
+      <div className="mediaPlayer">
       <ReactPlayer className="videoPreview" url={'https://vimeo.com/333159305'} controls/>
+
+      </div>
       
       
       </div>

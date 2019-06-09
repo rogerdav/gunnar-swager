@@ -8,11 +8,11 @@
   
 }
 .submitButton {
-  width: 15%;
+  width: 25%;
   /* background-color: blue; */
   color: white;
   float: right;
-  margin-left: 85%;
+  margin-left: 70%;
   cursor: pointer;
   
 }

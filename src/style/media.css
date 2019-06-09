@@ -1,7 +1,11 @@
-.contents_media{
+.contents.media{
   /* height: 100%; */
   /* border: 1px solid black; */
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
   
   
 
@@ -12,8 +16,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* outline: 1px solid orange; */
-  width: 100%;
+  
+  
+  /* width: 100%; */
 }
 #media img {
   width: 15%;
@@ -24,5 +29,6 @@
 } */
 .videoPreview {
   max-width: 50vw;
-  margin-left: 20%;
+  /* margin-left: 17.5%;  */
+  outline: solid 1px orange;
 }

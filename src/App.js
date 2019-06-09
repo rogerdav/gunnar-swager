@@ -52,8 +52,8 @@ class App extends Component {
                 <Route path='/test' component={Test} />
             </div>
           </HashRouter>
-          
-          <Donate pid="donateButton"/>
+          <Footer />
+          {/* <Donate pid="donateButton"/> */}
           
         </div>
 

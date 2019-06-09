@@ -8,10 +8,12 @@ const Purchase = (props) => {
       {/* <div className="leftSide_purchase">
       </div> */}
       <img src={require('../media/BD_website_03a_pb.jpg')} className="firstpic" />
-      <div className="contents_help">
+      <div className="contents help">
       <h1>How To Help</h1>
-       <h4>With your help we can give comfort care toys for children in crisis</h4>
-       <h4>Make a donation.
+       <h4></h4>
+       <h4>With your help we can give comfort care toys for children in crisis.</h4>
+       <h4>Make a donation.</h4>
+       <h4>
         Your donation directly supports children in a crisis situation.
        </h4>
        <Donate pid="donateButton2" />
