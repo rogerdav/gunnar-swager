@@ -5,7 +5,7 @@ import ContactForm from '../components/contactForm';
 const Contact = (props) => {
   return (
     <div id="contact" style={{ height: 800 }}>
-      <img src={require('../media/BD_website_01a_pb.jpg')} className="firstpic" />
+      <img src={require('../media/BD_website_01a_pb.jpg')} alt=""className="firstpic" />
       
         <div className="contents contact">
           <h1>Contact Infomation</h1>
@@ -18,7 +18,7 @@ const Contact = (props) => {
           <ContactForm />
         </div>
         
-        <img src={require('../media/BD_website_01a_pb.jpg')} className="secondpic" />
+        <img src={require('../media/BD_website_01a_pb.jpg')} alt=""className="secondpic" />
     </div>
   );
  }

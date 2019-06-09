@@ -8,7 +8,7 @@ const Events = (props) => {
     <div id="events" style={{ height: 800 }}>
     {/* <div className="leftSide_events">
     </div> */}
-    <img src={require('../media//book\ mark\ 5.jpg')}  className="firstpic"/>
+    <img src={require('../media//book mark 5.jpg')}  alt=""className="firstpic"/>
       <div className="contents events">
       <h1>Upcoming Events</h1>
       <div className="event"></div>
@@ -18,7 +18,7 @@ const Events = (props) => {
       </div>
     {/* <div className="rightSide_events">
     </div> */}
-    <img src={require('../media//book\ mark\ 6.jpg')} className="secondpic"/>
+    <img src={require('../media//book mark 6.jpg')} alt=""className="secondpic"/>
   </div>
   );
  }

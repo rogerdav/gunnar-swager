@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import { Carousel } from 'react-responsive-carousel';
@@ -18,9 +18,9 @@ import Image12 from '../media/carouselPics/pic12.jpg';
 import Image13 from '../media/carouselPics/pic13.jpg';
 import Image14 from '../media/carouselPics/pic14.jpg';
 import Image15 from '../media/carouselPics/pic15.jpg';
-import Image16 from '../media/carouselPics/pic16.jpg';
+// import Image16 from '../media/carouselPics/pic16.jpg';
 import Image17 from '../media/carouselPics/pic17.jpg';
-import Image18 from '../media/carouselPics/pic18.jpg';
+// import Image18 from '../media/carouselPics/pic18.jpg';
 import '../style/carousel.css';
 
 // const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8,

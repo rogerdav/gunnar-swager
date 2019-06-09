@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/donate-button.css'
 
 const Donate = (props) => {
-  console.log('react app paypal', process.env.REACT_APP_PAYPAL)
+  // console.log('react app paypal', process.env.REACT_APP_PAYPAL)
   return (
     <div id={props.pid}>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

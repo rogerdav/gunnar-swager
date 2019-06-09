@@ -6,7 +6,7 @@ import '../style/review.css';
 const Review = (props) => {
   return (
     <div id="review" style={{ height: 800 }}>
-    <img src={require('../media/BD_website_03a_pb.jpg')} className="firstpic" />
+    <img src={require('../media/BD_website_03a_pb.jpg')} alt=""className="firstpic" />
       <div className="contents review">
       <h1>Thanks from our beneficiaries</h1>
       <div className="testimonials">
@@ -19,7 +19,7 @@ const Review = (props) => {
       
       
       </div>
-      <img src={require('../media/BD_website_01a_pb.jpg')} className="secondpic" />
+      <img src={require('../media/BD_website_01a_pb.jpg')} alt=""className="secondpic" />
     
   </div>
   );
