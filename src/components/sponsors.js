@@ -59,7 +59,7 @@ const Sponsors = (props) => {
           </div>
 
           </div>
-          <h2>We would like to thank our major contributors</h2>
+          <h2 style={{marginTop: "3%"}}>We would like to thank our major contributors</h2>
           <div className="sponsors_wall">
             {allSponsors}
           </div>
