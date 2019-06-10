@@ -10,7 +10,7 @@ const Gunnar = (props) => {
   
         <div className="contents gunnar">
           <div className="gunnarDescription">
-            <h2>Gunnar Swagar</h2>
+            <h2>Gunnar Swager</h2>
             <p>
             Gunnar Swager, 23, of Spokane, died December 31, 2016, as a result of injuries sustained in a motor vehicle accident.
             <br />
