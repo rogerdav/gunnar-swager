@@ -57,6 +57,16 @@ const Sponsors = (props) => {
           </div>
 
           </div>
+          
+          <div className="partnerDescription"> 
+          <img src={require('../media/jackhammer.png')} alt=""/>
+          <div className="info">
+            <h4></h4><p> <a href="www.jackhammerpromotions.com">JACKHAMMER Promotions Inc.</a></p>
+            <p></p>
+          </div>
+
+          </div>
+          
           <h2 style={{marginTop: "3%"}}>We would like to thank our major contributors</h2>
           <div className="sponsors_wall">
             {allSponsors}
