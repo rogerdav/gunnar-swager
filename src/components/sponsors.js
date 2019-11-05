@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/sponsors.css';
 
-const sponsors=['Julie Markquart', 'Taylor Knight', 'Jes Adams', 'Swager Session', 'Quincy Robertson','Jill Carabin-Robertson' ]
+const sponsors=['Julie Markquart', 'Taylor Knight', 'Jes Adams', 'Swager Session', 'Quincy Robertson','Jill Carabin-Robertson', 'Tana Knight', 'Felicia Felch', 'Roxanne Rota', 'Christine Blumenshein', 'Amy Fickenster', 'Brittany Roy', 'Tammy Walters', 'Jan Peters', 'Terry Knight', 'Colleen Crespo', 'James Dreyer', 'Kelly Greenwood', 'Lawrence Kane' ];
 let allSponsors = sponsors.map((element, index) => <div key={index}className="brick">&#8226;  {element}  &#8226;</div>)
 
 const Sponsors = (props) => {
@@ -61,8 +61,19 @@ const Sponsors = (props) => {
           <div className="partnerDescription"> 
           <img src={require('../media/jackhammer.png')} alt=""/>
           <div className="info">
-            <h4></h4><p> <a href="www.jackhammerpromotions.com">JACKHAMMER Promotions Inc.</a></p>
+            <p> <a href="www.jackhammerpromotions.com">JACKHAMMER Promotions Inc.</a></p>
             <p></p>
+          </div>
+
+          </div>
+          <div className="partnerDescription"> 
+          <img src={'http://kzmiller.com/kami-portrait.jpg'} alt=""/>
+          <div className="info">
+            <h4>Kami Miller</h4><p>Publisher</p>
+            <p>Chinese Gardens<br />
+            5207 E Trent Ave,<br />
+            Spokane, WA<br />
+            <a href="http://kzmiller.com/index.html">kzmiller.com</a></p>
           </div>
 
           </div>
