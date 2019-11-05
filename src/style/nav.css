@@ -81,5 +81,8 @@ button:focus {
   #logo h5 {
     font-size: 0.8em;
   }
+  #logo {
+    max-width: 250px;
+  }
 
  }

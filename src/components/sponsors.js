@@ -67,14 +67,24 @@ const Sponsors = (props) => {
 
           </div>
           <div className="partnerDescription"> 
-          <img src={'http://kzmiller.com/kami-portrait.jpg'} alt=""/>
-          <div className="info">
-            <h4>Kami Miller</h4><p>Publisher</p>
-            <p>Chinese Gardens<br />
-            5207 E Trent Ave,<br />
-            Spokane, WA<br />
-            <a href="http://kzmiller.com/index.html">kzmiller.com</a></p>
+            <img src={''} alt=""/>
+            <div className="info">
+              <h4>Chinese Gardens</h4>
+              <p>
+              5207 E Trent Ave,<br />
+              Spokane, WA<br />
+              </p>
+            </div>
+
           </div>
+          <div className="partnerDescription"> 
+            <img src={'http://kzmiller.com/kami-portrait.jpg'} alt=""/>
+            <div className="info">
+              <h4>Kami Miller</h4>
+              <p>Publisher</p>
+              <p>
+              <a href="http://kzmiller.com/index.html">kzmiller.com</a></p>
+            </div>
 
           </div>
           

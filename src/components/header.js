@@ -11,7 +11,7 @@ const Header = (props) => {
      <img className="headerLogo" src={logo1} alt="logo"></img>
 
      </a>
-     <h1>'Comfort for Kids in crisis'</h1>
+     {/* <h1>'Comfort for Kids in crisis'</h1> */}
 
    </div>
  );
